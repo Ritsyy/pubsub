@@ -1,13 +1,18 @@
 # Pub Sub Interface
 
 
-Pub Sub interface using etcd to publish messages on the queue you want to send message through.
+pubsub implemention with etcd 
 
-  - python emit_logs.py queue_name message
-  - e.g python emit_logs.py nodes hellloWorld
-  - To see the message in the reciever
-  - python recieve_logs.py nodes
-
+### Publishing messge to a queue
+- python emit_logs.py queue_name message
+```
+python emit_logs.py nodes helloWorld
+```
+#### To see the message in the reciever
+- python receive_logs.py queue_name
+```
+python recieve_logs.py nodes
+```
 # Installation
 
   - install etcd using https://github.com/coreos/etcd/releases/
