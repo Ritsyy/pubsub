@@ -1,6 +1,5 @@
 # Pub Sub Interface
 
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
 
 Pub Sub interface using etcd to publish messages on the queue you want to send message through.
 
